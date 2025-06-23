@@ -1,5 +1,4 @@
 "use client";
-import { color } from "chart.js/helpers";
 import { JSX } from "react";
 import { HiDotsVertical } from "react-icons/hi";
 

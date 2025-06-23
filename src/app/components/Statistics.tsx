@@ -52,7 +52,7 @@ function Statistics() {
       </div>
       <div className="flex justify-center my-4">
         <div className="relative border-2 border-r-purple-400 border-t-purple-400 border-l-[#ccc] border-b-[#ccc]  rounded-full p-2">
-          <div className="rounded-full overflow-hidden h-25 w-25 bg-[#E2DDF8] flex items-center justify-center cursor-pointer">
+          <div className="rounded-full overflow-hidden h-25 w-25 bg-[#E2DDF8] flex items-center justify-center">
             <Image
               className="rounded-full"
               src="/images/user2.jpg"

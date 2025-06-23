@@ -2,15 +2,20 @@
 import { FaPlus } from "react-icons/fa6";
 import Banner from "@/app/components/Banner";
 import CourseAnalytics from "./components/CourseAnalytics";
+import Courses from "./components/Courses";
 import Statistics from "@/app/components/Statistics";
 import Mentors from "@/app/components/Mentors";
 
 export default function Dashboard() {
   return (
     <div className="grid grid-cols-1 md:grid-cols-[auto_350px] gap-4 min-h-screen p-5">
-      <div className="grid grid-cols-1 grid-rows-[min-content_min-content]">
+      <div className="grid grid-cols-1 grid-rows-[min-content_min-content_min-content_min-content]">
         <Banner />
         <CourseAnalytics />
+        <div>
+          <p className="text-xl font-bold">Continue Watching</p>
+        </div>
+        <Courses />
       </div>
       <div className="bg-white rounded-[20px] p-4">
         <Statistics />
